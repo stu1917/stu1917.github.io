@@ -30,10 +30,17 @@ body {
     padding: 20px;
 }
 
-.logo {
-    max-width: 200px;
-    height: auto;
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
 }
 
 .subtitle {
